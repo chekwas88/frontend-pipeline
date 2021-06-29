@@ -1,0 +1,351 @@
+[
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "red",
+      "stroke": "red"
+    }
+  },
+
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "blue",
+      "stroke": "blue"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "yellow",
+      "stroke": "yellow"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "purple",
+      "stroke": "purple"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "purple",
+      "stroke": "purple"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "green",
+      "stroke": "green"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "rectangle",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "70px",
+      "fill": "grey",
+      "stroke": "grey"
+    }
+  },
+
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "grey",
+      "stroke": "grey"
+    }
+  },
+
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "grey",
+      "stroke": "grey"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "red",
+      "stroke": "red"
+    }
+  },
+
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "yellow",
+      "stroke": "yellow"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "green",
+      "stroke": "green"
+    }
+  },
+
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "purple",
+      "stroke": "purple"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "blue",
+      "stroke": "blue"
+    }
+  },
+  {
+    "shape": "rect",
+    "name": "square",
+    "props": {
+      "x": 0,
+      "y": 0,
+      "width": "180px",
+      "height": "100px",
+      "fill": "blue",
+      "stroke": "blue"
+    }
+  },
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "blue",
+      "stroke": "blue"
+    }
+  },
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "green",
+      "stroke": "green"
+    }
+  },
+
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "yellow",
+      "stroke": "yellow"
+    }
+  },
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "blue",
+      "stroke": "blue"
+    }
+  },
+
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "purple",
+      "stroke": "purple"
+    }
+  },
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "grey",
+      "stroke": "grey"
+    }
+  },
+  {
+    "shape": "circle",
+    "name": "round",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "r": 50,
+      "fill": "red",
+      "stroke": "red"
+    }
+  },
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "red",
+      "stroke": "red"
+    }
+  },
+
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "green",
+      "stroke": "green"
+    }
+  },
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "red",
+      "stroke": "red"
+    }
+  },
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "grey",
+      "stroke": "grey"
+    }
+  },
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "blue",
+      "stroke": "blue"
+    }
+  },
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "yellow",
+      "stroke": "yellow"
+    }
+  },
+  {
+    "shape": "ellipse",
+    "name": "oval",
+    "props": {
+      "cx": "50%",
+      "cy": "50%",
+      "rx": 40,
+      "ry": 50,
+      "fill": "purple",
+      "stroke": "purple"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+
+  & h2 {
+    text-transform: capitalize;
+  }
+
+  &__filter {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+
+    @media only screen and (min-width: $bp-small) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media only screen and (min-width: $bp-medium) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    @media only screen and (min-width: $bp-large) {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+    @media only screen and (min-width: $bp-largest) {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.filter {
+  margin: 2.5rem 0;
+  & > h2 {
+    color: $color_filter_header;
+  }
+
+  &__item {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

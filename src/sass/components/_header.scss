@@ -1,0 +1,29 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba($color: #000000, $alpha: 0.1);
+  &__item {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    & > div > button {
+      padding: 10px;
+      border: 0;
+      color: $color_filter_header;
+      font-weight: 600;
+      background-color: #ffffff;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .logout {
+    color: $color_red;
+  }
+}

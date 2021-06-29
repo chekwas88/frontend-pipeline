@@ -1,0 +1,53 @@
+.bttn {
+  display: inline-flex;
+  align-items: center;
+  color: $color_text;
+  text-transform: capitalize;
+
+  &__shape {
+    border-radius: 1rem;
+    border: 1px solid $color_grey;
+    padding: 6px 8px;
+    &:hover {
+      background-color: #95a4a7;
+    }
+  }
+
+  &__color {
+    border-radius: 9999px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 2px solid $color_filter_header;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.selected {
+  border: 2px solid #000000;
+}
+
+.red {
+  background-color: $color_red;
+}
+
+.blue {
+  background-color: $color_blue;
+}
+
+.green {
+  background-color: $color_green;
+}
+
+.grey {
+  background-color: $color_grey;
+}
+
+.yellow {
+  background-color: $color_yellow;
+}
+.purple {
+  background-color: $color_purple;
+}
