@@ -41,7 +41,11 @@ export function useShape() {
       setTitle("All Items");
       return;
     }
-    if (colorFilters.length > 1 && shapeFilters.length > 1) {
+    if (
+      (colorFilters.length > 1 && shapeFilters.length > 1) ||
+      (colorFilters.length > 1 && !shapeFilters.length) ||
+      (shapeFilters.length > 1 && !colorFilters.length)
+    ) {
       setTitle("Multiple Items");
     }
 
@@ -67,6 +71,7 @@ export function useShape() {
       let color = colorFilters[0];
       setTitle(`Multiple ${color} Items`);
     }
+
     if (shapeFilters.length === 1 && colorFilters.length === 1) {
       let color = colorFilters[0];
       let shape = shapeFilters[0];
