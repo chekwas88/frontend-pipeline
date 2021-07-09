@@ -35,8 +35,9 @@ export function useShape() {
 
   const handleTitle = React.useCallback(() => {
     if (
-      colorFilters.length === colors.length &&
-      shapeFilters.length === figures.length
+      (colorFilters.length === colors.length &&
+        shapeFilters.length === figures.length) ||
+      (!colorFilters.length && !shapeFilters.length)
     ) {
       setTitle("All Items");
       return;
